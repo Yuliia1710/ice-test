@@ -1,0 +1,97 @@
+<div class="backdrop">
+  <div class="modal modal-buy">
+    <button class="modal__btn-close">
+      <svg width="20" height="20" class="">
+        <use href="./images/icons.svg#icon-close-cross"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal__header modal__title">Buy now</h2>
+    <div class="product-box">
+      <ul class="list product-box__list">
+        <li class="product-box__item">
+          <div class="pctr__back pctr__back--green">
+            <div class="pctr__img">
+              <img
+                class="product-box__img"
+                srcset="
+                  ./images/products/products-ice-cream-desktop.png    1x,
+                  ./images/products/products-ice-cream-desktop@2x.png 2x
+                "
+                src="./images/products/products-ice-cream-desktop.png"
+                alt="ice-cream"
+                width="132"
+                height="132"
+              />
+            </div>
+          </div>
+        </li>
+
+        <li class="product-box__item">
+          <div class="pctr__back pctr__back--yellow">
+            <div class="pctr__img">
+              <img
+                class="product-box__img"
+                srcset="
+                  ./images/products/products-ice-coffee-desktop.png    1x,
+                  ./images/products/products-ice-coffee-desktop@2x.png 2x
+                "
+                src="./images/products/products-ice-coffee-desktop.png"
+                alt="coffee"
+                width="132"
+                height="132"
+              />
+            </div>
+          </div>
+        </li>
+        <li class="product-box__item">
+          <div class="pctr__back pctr__back--brown">
+            <div class="pctr__img">
+              <img
+                class="product-box__img"
+                srcset="
+                  ./images/products/products-milkshakes-desktop.png    1x,
+                  ./images/products/products-milkshakes-desktop@2x.png 2x
+                "
+                src="./images/products/products-milkshakes-desktop.png"
+                alt="milkshakes"
+                width="132"
+                height="132"
+              />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="form-wrapper">
+      <form class="form-buy" action="#">
+        <div class="input-wrapper">
+          <input
+            class="input-wrapper__input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Name"
+          />
+
+          <input
+            class="input-wrapper__input"
+            type="text"
+            name="user-number"
+            id="user-number"
+            placeholder="Phone"
+          />
+
+          <textarea
+            class="input-wrapper__input form__textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+      </form>
+    </div>
+
+    <button type="button" class="modal__btn">Submit</button>
+  </div>
+</div>
